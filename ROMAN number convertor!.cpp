@@ -1,3 +1,15 @@
+/*Write a program to convert a Roman number (such as MCMLXXVIII) to its decimal number representation.
+Hint: First write a function that returns the numeric value of each of the letters (I=1, V=5, X=10,
+L=50, C=100, D=500, M=1000), then use the following algorithm for your program:
+Total = 0
+While the Roman number string is not empty
+ If value(1st char) is at least value(2nd char), or the string is of length 1
+ Add value (1st char) to total
+ Remove the 1st char
+ Else
+ Add the difference (i.e. value(2nd char) – value(1st char)) to total
+ Remove both characters*/
+
 #include <iostream>
 
 using namespace std;
